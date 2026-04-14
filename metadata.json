@@ -1,0 +1,6 @@
+{
+  "name": "Apollo Notification Center POC",
+  "description": "A notification management system featuring user preferences, admin console, and real-time notification simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

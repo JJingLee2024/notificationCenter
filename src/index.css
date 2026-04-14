@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #26aae3;
+  --color-primary-light: #4fbae8;
+  --color-primary-dark: #1889b9;
+  --color-primary-30: #cdecf9;
+  --color-primary-70: #8ad1f0;
+  
+  --color-black-50: #f9f9f9;
+  --color-black-100: #f2f2f2;
+  --color-black-200: #e5e5e5;
+  --color-black-300: #d4d4d4;
+  --color-black-400: #a3a3a3;
+  --color-black-500: #737373;
+  --color-black-600: #525252;
+  --color-black-700: #404040;
+  --color-black-800: #353d45; /* Base Black */
+  --color-black-900: #1a1a1a;
+
+  --color-yellow-500: #fabf13;
+  --color-red-500: #be3a3a;
+  --color-green-500: #34a853;
+  
+  --color-modal-divider: #6f6f6f;
+
+  /* Override blue to primary for easier migration if needed, but I'll use primary classes */
+  --color-blue-50: var(--color-primary-30);
+  --color-blue-100: var(--color-primary-70);
+  --color-blue-500: var(--color-primary);
+  --color-blue-600: var(--color-primary-dark);
+}
